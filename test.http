@@ -1,0 +1,25 @@
+###
+GET http://localhost:3000/task/59625f4285742e12f40defb4 HTTP/1.1
+
+###
+POST http://localhost:3000/task HTTP/1.1
+content-type: application/json
+
+{
+    "title": "new testing",
+    "date": 1496341686278,
+    "description": "testing"
+}
+
+###
+PATCH http://localhost:3000/task/59305dd0472c711c24b65406 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "test",
+    "date": 1496341686279,
+    "description": "testing1"
+}
+
+###
+DELETE http://localhost:3000/task/59305dd0472c711c24b65406 HTTP/1.1

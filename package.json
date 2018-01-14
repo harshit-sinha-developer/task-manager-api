@@ -1,0 +1,21 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "Task Manager App Api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "karma test"
+  },
+  "author": "Harshit Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "mongoose": "^4.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
